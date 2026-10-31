@@ -1,0 +1,29 @@
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 虚拟环境
+.venv/
+venv/
+
+# 向量库与本地存储（LanceDB 数据目录）
+backend/storage/
+*.lancedb/
+*.lance/
+
+# 日志缓存
+logs/
+*.log
+
+# 编辑器与系统文件
+.idea/
+.DS_Store

@@ -1,0 +1,11 @@
+# ReviTrace 后端依赖（Python 3.10+）
+# 当前阶段不加载真实向量模型，安装后即可运行完整接口骨架
+fastapi>=0.110.0,<1.0.0
+uvicorn[standard]>=0.29.0,<1.0.0
+python-multipart>=0.0.9,<1.0.0
+pydantic>=2.6.0,<3.0.0
+lancedb>=0.10.0,<1.0.0
+pypdf>=4.2.0,<6.0.0
+
+# 接入 BGE-M3 真实向量模型时再放开以下依赖（体积较大，暂不安装）
+# FlagEmbedding>=1.2.10
